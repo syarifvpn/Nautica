@@ -3,10 +3,10 @@ import { connect } from "cloudflare:sockets";
 // Variables
 const rootDomain = "syarifsproject.my.id"; // Ganti dengan domain utama kalian
 const serviceName = "massyarif"; // Ganti dengan nama workers kalian
-const apiKey = "7c5183f03f110482ac6c19574758e8d29b2ba"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = "srfunila@gmail.com"; // Ganti dengan email yang kalian gunakan
-const accountID = "0b07807ca7ea53cda36c787dea02a39d"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = "a11284deefb8990aa7166786d7cf4098"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
 let proxyIP = "";
 let cachedProxyList = [];
